@@ -1,232 +1,200 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladan Doroud Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
 
-     <title>Ladan Doroud Homepage</title>
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
 
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: +55px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt_short { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; border-right: 1px solid #999; height: 100px; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; border-right: 1px solid #999; height: 250px; }
-        dt_medium { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; border-right: 1px solid #999; height: 600px; }
-        dt_long { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; border-right: 1px solid #999; height: 900px; }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-        twitter-widget-0 { width: 240px; //input the value of width u desire }
-        iframe[id^='twitter-widget-']{ width:80% !important;}
-     </style>
+        header {
+            background: #2a7f62;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #33a673 3px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2a7f62;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2a7f62;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #33a673;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1>Ladan Doroud</h1>
+    </header>
 
-    <div id="page-wrap">
-        <img src="images/LadanDoroud_Ancestry.jpeg" alt="Photo of Ladan Doroud" id="pic" />
-        <div id="contact-info" class="vcard">
-            <h1 class="fn">Ladan Doroud</h1>
+    <div class="container">
+        <img src="images/LadanDoroud_Ancestry.jpeg" alt="Photo of Ladan Doroud" class="profile-pic" />
+
+        <section id="about">
+            <h2>About Me</h2>
             <p>
-                Email: <a class="email" href="mailto:ladan.doroud@gmail.com">ladan.doroud@gmail.com</a> <br />
-                Address: <a class="address" </a> San Francisco, CA </a><br />
+                I’m a data scientist with a PhD in Computer Science and a deep passion for using data to solve meaningful problems and drive positive change in the world. Over the past decade, I’ve worked on impactful projects in healthcare and genomics—developing polygenic risk scores at Color to support initiatives like NIH’s <i>All of Us</i>, and building scalable genomic pipelines that served over 17 million customers at Ancestry. At Betteromics, I focus on integrating diverse data modalities, like clinical and molecular data, to create workflows and analyses that uncover insights and spark innovation. I love tackling complex challenges, collaborating with dynamic teams, and leveraging technology to make personalized solutions more accessible and transformative.
             </p>
-        </div>
-                
-        
-        <div id="objective">
-        <p>
-		I am a data scientist at color.com since January 2020. My main focus in the past couple years has been on R&D as well as development of polygenic risk scores as a 
-		preventive measure for individuals from diverse populations. Prior to color, I was a staff scientist at Ancestry.com where I worked in the DNA Science team on projects 
-		involving big data and computational biology. Before I got introduced to population genetics, I was a PhD student in Computer Science at University of California, Davis 
-		where I worked with <a href="http://phylogenomics.wordpress.com/" target="_blank">Prof. Jonathan Eisen</a>  at UC Davis Genome Center and focused on microbial interactions as 
-		a graph problem. Recently, I am more interested in human genetics and phenotype associations, algorithm development, big data and microbiome!
-        </p>
-        </div>
-        
-        
-        <div class="clear"></div>
-            <dd class="clear"></dd>
-			<p></p>            
-            <dt>Skills</dt>
-            <dd>
-				<p> </p><strong>Programming Languages:</strong> Python, Bash, AWK, SQL
-				<p></p><strong> Machine Learning:</strong> Scikit-learn, Tensorflow (keras) 
-				<p></p><strong>Analytics:</strong> ETL, SQL, Django, dbt, Google BigQuery, Metabase
-				<p> </p><strong>Big Data:</strong> Hadoop and Map Reduce, Spark
-				<p></p><strong>Computing:</strong> Amazon AWS, HPC, Slurm, Git, Jupyter
-                <p></p>
-            </dd>
-            
-            
-        <dd class="clear"></dd>
-            <p></p>
-            <dt_long>Experience</dt_long>
-            <dd>
-        	<h4>  Data Scientist - Color.com (2020 - Present)</h4>
-            <ul> 
-				<li> Working on polygenic risk scores (PRS) where I exclusively owned end-to-end lifecycle of this project, starting from R&D, imputation, data analysis, modeling and 
-				clinical validations to productionizing and supporting ETL, reports and dashboards for analytics </li>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python, SQL, Bash, R, Perl, C++ (basic proficiency)</li>
+                <li><strong>Data Analysis:</strong> scikit-learn, pandas, NumPy, TensorFlow, PyTorch, Matplotlib, Plotly</li>
+                <li><strong>Big Data:</strong> Hadoop, Spark, AWS EMR</li>
+                <li><strong>Tools:</strong> Jupyter Notebooks, Flyte, SageMaker, Docker, Kubernetes, Airflow</li>
+                <li><strong>Analytics:</strong> ETL, Django, dbt, Google BigQuery, Metabase, Tableau, Looker</li>
+                <li><strong>Domain Knowledge:</strong> Genomics, Bioinformatics, EHR, ICD10, Molecular Biology, Insurance Claims</li>
+                <li><strong>Leadership:</strong> Talent Development, Product Strategy, Data-Driven Decision Making</li>
             </ul>
-            	
-			<h4> Genomics Data Scientist (Staff Scientist) - Ancestry.com (2017 - 2020)</h4>
-				<ul> 
-				<li> Extensive algorithm and software development as well as project management for Matching, Genetic Communities as well as Health products </li>
-				</ul>
+        </section>
 
-			<h4> Co-Founder at Animal Microbiome Analytics - Funded by Indiebio (2016) </h4>
-			<h4>Insight Data Science (Fellowship - Summer 2016) </h4>
-				<ul>
-				<li>Developed an optimized pipeline enhancing anomaly detection in Lending Club data and built an internal recommendation app to reduce the risk of late payoffs and loan defaults</li>
-				<li>Delivered a risk estimator using scikit-learn’s random forest classification algorithm </li>
-				<li>Deployed a web app online using flask, bootstrap and javascript and hosted the app on Amazon AWS </li>
-				</ul>
-			<h4>Ancestry.com Inc. (Internship - Summer 2015) </h4>
-				<ul>
-				<li>Computational Biologist at AncestryDNA 
-				<li>Large scale network analysis (community detection) to find novel IBD clusters</li>
-				<li>Data mining and developing an efficient pipeline (using Hadoop) for SNPs/haplotype matching among 1 million
-					customers which resulted in de bruijn graphs of the hapotypes</li>
-				
-				</ul>
-			<h4>Udacity, Inc. (Internship - Summer 2014) </h4>
-				<ul>
-				<li>Course Manager for Data Science Nanodegree</li>
-				<li>Maintained and supported the following courses: Hadoop and Map Reduce, Data Science, Exploratory Data
-					Analysis, Statistics</li>
-				<li>Assisted in designing and gathering materials for new online courses</li>
-				</ul>
-			<h4>Jonathan Eisen’s Lab – Graduate Student Researcher 2010-Present </h4>
-				<p>Designing and implementing novel approaches toward community detection and function prediction for large-scale networks of protein sequences</p>
-				<p></p>
-			<h4>COSMOS program Summer 2011</h4>
-				<p>Teaching assistant for California State Summer School for Mathematics and Science at UC Davis, Responsible for teaching computer programming in robotics </p>
-				<p></p>
-			<!-- Start commenting Teaching Assistant positions
-					<h4>Teaching Assistant: </h4>
-					<ul>
-					<li>ECS10: Basic concepts of computing	(09/2012—12/2012) </li> 
-					<li>ECS124: Theory and practice of Bioinformatics  (03/2012—06/2012)</li> 
-					<li>ECS20: Discrete Mathematics for Computer Science (09/2011—12/2011) </li> 
-					<li>Cosmos program in UC Davis : Computer programming in Robotics (07/2011—09/2011)</li> 
-					<li>ECS30: Introduction for programming and problem solving (01/2011—04/2011) </li> 
-					</ul> -->
-				</dd>
-			
+        <section id="experience">
+            <h2>Experience</h2>
+            <div>
+                <h3>Data Scientist - Betteromics (2023 - Present)</h3>
+                <ul>
+                    <li>Developed and deployed numerous product demos showcasing the platform’s versatility across genomics and clinical data use cases.</li>
+                    <li>Defined and implemented customer engagement strategies, increasing customer adoption by ~20%.</li>
+                    <li>Established workflows for foundational DNA models, improving interpretability and biological insights.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Principal Data Scientist - Color (2020 - 2023)</h3>
+                <ul>
+                    <li>Led the development of polygenic risk scores, including R&D, clinical validations, and scalable ETL pipelines.</li>
+                    <li>Contributed to customer-facing products like NIH’s <i>All of Us</i> and COVID testing solutions.</li>
+                    <li>Built and led a cross-functional team, focusing on talent development and recruitment.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Staff Data Scientist - Ancestry (2017 - 2020)</h3>
+                <ul>
+                    <li>Developed novel algorithms and big data pipelines to analyze genomic data from over 17 million customers.</li>
+                    <li>Utilized machine learning algorithms to build predictive models for phenotype inference based on genotype.</li>
+                    <li>Collaborated with cross-functional teams to ensure successful product launches and smooth operations.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Co-Founder - AnimalBiome (2016 - 2017)</h3>
+                <ul>
+                    <li>Defined strategic business plans and secured $250K in seed funding from IndieBio.</li>
+                    <li>Managed early-stage operations, including product development and market evaluation.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Internships</h3>
+                <ul>
+                    <li><strong>Insight Data Science (2016):</strong> Developed an optimized pipeline for anomaly detection and built a web application for risk estimation using random forests.</li>
+                    <li><strong>Ancestry (2015):</strong> Conducted large-scale network analysis for novel IBD clusters and developed efficient pipelines for SNP/haplotype matching using Hadoop.</li>
+                    <li><strong>Udacity (2014):</strong> Managed Data Science Nanodegree courses and designed new educational materials for online learning.</li>
+                </ul>
+            </div>
+        </section>
 
-                        <dd class="clear"></dd>
-            <p> </p>
-            <dt>Education </dt>
-			    <dd> <p> </p>
-                <h4><strong>University of California, Davis (2010—2017)</h4></strong>
-                <p><strong>&nbsp&nbsp&nbsp&nbsp&nbspMajor:</strong> PhD: Computer Science<br /> </p>
-								                
-                <h4><strong>University of California, Davis (2010—2013)</h4></strong>
-                <p><strong>&nbsp&nbsp&nbsp&nbsp&nbspMajor:</strong> Masters: Computer Science<br /> </p>
-                
-				<h4><strong>Shahid Beheshti University (2006—2010)</h4></strong>
-                <p><strong>&nbsp&nbsp&nbsp&nbsp&nbspMajor:</strong> Bachelors: Computer Science<br /> </p>                                 
-                
-            </dd>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>PhD in Computer Science</strong>, University of California, Davis (2017)</li>
+                <li><strong>BS in Computer Science</strong>, Shahid Beheshti University (2010)</li>
+            </ul>
+        </section>
 
-            <dd class="clear"></dd>
-            <p></p>
-            <dt_medium>Publications</dt_medium>
-            <dd>
-	            <p><strong>[White Paper]:</strong> Genome-wide Polygenic Score  <a href="color.com/wp-content/uploads/2021/03/Color-Genome-wide-Polygenic-Score.pdf" target="_blank">Download PDF</a></p>
-				<p><strong>[Paper]:</strong> Holly H. Ganz (joint first author), Ladan Doroud (joint first author), Alana J. Firl, Sarah M. Hird, Jonathan A. Eisen, Walter M. Boyce. "Community-level differences in the microbiome of healthy wild mallards and those infected by influenza A viruses". (2017) <a href="http://msystems.asm.org/content/msys/2/1/e00188-16.full.pdf" target="_blank">Download PDF</a></p>
-				<p><strong>[Paper]:</strong> Katherine Dahlhausen, Ladan Doroud, Alana Firl, Adam Polkinghorne, Jonathan Eisen "Characterization and Temporal Shifts of Koala (Phascolarctos cinereus) Gut Microbial Communities Associated with Antibiotic Treatment". (2017) <a href="http://msystems.asm.org/content/msys/2/1/e00188-16.full.pdf" target="_blank">Download PDF</a></p>
-				<p><strong>[Paper]:</strong> Ashley Vater , Vivian Agbonavbare , Dylan Carlin , Griselda Carruthers , Adam Chac , Ladan Doroud , Samuel Farris , Melanya Gudzeva , Guillaume Jospin , John Kitner , Jonathon Knauss , Yi Lor , Randi Pechacek , Eden Rohner , Sierra Simmons , Mayya Verescshagina , Christian Wirawan , Leonel Zagal
-            								 "Draft Genome Sequences of Shewanella sp. UCD-FRSP16_17 and 9 Vibrio Strains Isolated from Abalone Feces" (2016) <a href="http://genomea.asm.org/content/4/5/e00977-16.full.pdf+html" target="_blank">Download PDF</a></p> 
-				<p><strong>[Paper]:</strong> Dongying Wu, Ladan Doroud, and Jonathan A. Eisen. "TreeOTU: Operational Taxonomic Unit Classification Based on Phylogenetic Trees." arXiv preprint arXiv:1308.6333 (2013). 	<a href="http://arxiv.org/abs/1308.6333" target="_blank">PDF in arXiv.org</a></p>
-				<p><strong>[Technical Book Review]:</strong> Review of the book "Mastering Gephi Network Visualisation", Packt Publishing (2014)	<a href="https://www.packtpub.com/networking-and-servers/mastering-gephi-network-visualization" target="_blank">Link to the book</a></p>
-				<p><strong>[Poster]:</strong> Ladan Doroud, Jonathan A.Eisen. "Use of Extreme Sets as a Tool in Making Predictions of Protein Function from Sequence" CRA-Women Graduate Cohort Workshop (2014)</p>
-		 	</dd>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>Ganz, H. H., Doroud, L., Firl, A. J., et al. (2017). Community-level differences in the microbiome of healthy wild mallards and those infected by influenza A viruses. <i>mSystems</i>. <a href="http://msystems.asm.org/content/msys/2/1/e00188-16.full.pdf" target="_blank">View PDF</a></li>
+                <li>Dahlhausen, K., Doroud, L., Firl, A., et al. (2017). Characterization and Temporal Shifts of Koala (Phascolarctos cinereus) Gut Microbial Communities Associated with Antibiotic Treatment. <i>mSystems</i>. <a href="http://msystems.asm.org/content/msys/2/1/e00188-16.full.pdf" target="_blank">View PDF</a></li>
+                <li>Vater, A., Doroud, L., et al. (2016). Draft Genome Sequences of Shewanella sp. UCD-FRSP16_17 and 9 Vibrio Strains Isolated from Abalone Feces. <i>Genome Announcements</i>. <a href="http://genomea.asm.org/content/4/5/e00977-16.full.pdf+html" target="_blank">View PDF</a></li>
+                <li>Wu, D., Doroud, L., & Eisen, J. A. (2013). TreeOTU: Operational Taxonomic Unit Classification Based on Phylogenetic Trees. <i>arXiv preprint</i>. <a href="http://arxiv.org/abs/1308.6333" target="_blank">View PDF</a></li>
+            </ul>
+        </section>
 
+        <section id="awards">
+            <h2>Awards and Achievements</h2>
+            <ul>
+                <li><strong>Patent:</strong> Community assignments in identity by descent networks and genetic variant origination (EP3776556A1)</li>
+                <li><strong>Google Code Jam:</strong> Winner of Google Code Jam to I/O for Women (2016)</li>
+                <li><strong>Fellowship:</strong> Insight Data Science Fellows Program (2016)</li>
+                <li><strong>Fellowship:</strong> Graduate Research Fellowship (2015)</li>
+                <li><strong>Certificate:</strong> Learner-Centered Teaching Certificate, UC Davis (2013)</li>
+            </ul>
+        </section>
 
-            
-            <dd class="clear"></dd>
-            <p></p>
-            <dt>Awards and Certificates</dt>
-            <dd>
-				<p><b>Patent:</b> Community assignments in identity by descent networks and genetic variant origination </p>
-				<p><b>Google Code Jam:</b> Won Google Code Jam to I/O 2016 contest (for Women) </p>	
-				<p><b>Fellowship:</b> Insight Data Science Fellows Program - 2016</p>
-				<p><b>Fellowship:</b> Graduate Research Fellowship - 2015</p>
-				<p><b>Certificate:</b> Center for Excellence in Teaching and Learning, UC Davis Awarded certificate in Learner-Centered Teaching: Designing Courses, Activities, and Assessments to Enhance Student Learning - 2013</p>
-			</dd>
-            
-            <dd class="clear"></dd>
-            
-           <br>
-	
-		<dd class="clear"></dd>
-            <p></p>
-            <dt_short>Links</dt_short>
-	    	<dd>
-            	<strong> Resume: </strong> <a href="https://github.com/ladand/ladand.github.io/blob/master/Resume/LadanDoroud_Resume2022_NoNumber.pdf"> Click here to check out my resume in pdf</a>
-            </dd> <p></p>
-            
-            <dd>
-            <a class="twitter-timeline" href="https://twitter.com/ldoroud" data-widget-id="604799998732083200">Tweets by @ldoroud</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
-            </dd> <p></p>
-            
-            <dd class="clear"></dd>
-            <dd class="clear"></dd>
-                      <p></p> 
-            <dd> 
-            
-            
-        </dl>
-        
-        <div class="clear"></div>
-    
+        <footer>
+            <p>View my full <a href="LadanDoroud_resume.pdf" target="_blank">Resume</a></p>
+            <p>&copy; 2025 Ladan Doroud. All Rights Reserved.</p>
+        </footer>
     </div>
-    
-    <!-- Start of StatCounter Code for Default Guide -->
-	<script type="text/javascript">
-	var sc_project=9689542; 
-	var sc_invisible=1; 
-	var sc_security="10d0c6d0"; 
-	var scJsHost = (("https:" == document.location.protocol) ?
-	"https://secure." : "http://www.");
-	document.write("<sc"+"ript type='text/javascript' src='" +
-	scJsHost+
-	"statcounter.com/counter/counter.js'></"+"script>");
-	</script>
-	<noscript><div class="statcounter"><a title="web statistics"
-	href="http://statcounter.com/free-web-stats/"
-	target="_blank"><img class="statcounter"
-	src="http://c.statcounter.com/9689542/0/10d0c6d0/1/"
-	alt="web statistics"></a></div></noscript>
-	<!-- End of StatCounter Code for Default Guide -->
-
-	<!-- starting Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-49224114-1', 'ladandoroud.com');
-	  ga('send', 'pageview');
-	
-	</script>
-	<!-- End of Google Analytics-->
-	
 </body>
 
 </html>
